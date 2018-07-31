@@ -1,13 +1,13 @@
-var business = require('./db/business');
-var busines = {  
+var businesses = require('./db/businesses');
+var business = {  
   name: 'Engine-4'
 
 };
-business.create(busines, function(err) {  
+businesses.create(business, function(err) {  
   if (err) {
     throw err;
   }
   else {
-    console.log('busines inserted');
+    console.log('business has been inserted');
   }
 });

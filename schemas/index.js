@@ -1,9 +1,10 @@
 var Joi = require('joi');  
 var Boom = require('boom');
-var schemaNames = ['user'];
-var schemaNames = ['personReport'];
-var schemaNames = ['locationReport'];
-var schemaNames = ['busines'];
+var schemaNames = ['user',
+                   'personReport',
+                   'locationReport',
+                   'roadReport',
+                   'business'];
 var schemas = {};
 /*
  * Check validation of the given document, and call the continuation function if it is valid. 
