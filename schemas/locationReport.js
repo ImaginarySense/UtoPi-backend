@@ -1,6 +1,6 @@
 var Joi = require('joi');
 module.exports = Joi.object().keys({
-// defining the scehma 
+// defining the scehma of location report
   _rev: Joi.string(),
   _id: Joi.string(),
   type: Joi.string(),

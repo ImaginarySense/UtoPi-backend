@@ -1,6 +1,6 @@
 var Joi = require('joi');
 module.exports = Joi.object().keys({
-// defining the scehma 
+// defining the scehma of person report
   _rev: Joi.string(),
   _id: Joi.string(),
   firstName: Joi.string().required(),
