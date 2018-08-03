@@ -1,7 +1,7 @@
 var couch = require('./couchdb');
 // creates the database in cocuchdb
 couch.db.create('utopi', function(err) { 
-// validate if there a database with that name alredy in cocuchdb 
+// validate if there a database with that name already in cocuchdb 
   if (err && err.statusCode != 412) {
     console.error(err);
   }

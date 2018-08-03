@@ -5,14 +5,11 @@ var schemaNames = ['user',
                    'locationReport',
                    'roadReport',
                    'gas',
+                   'message',
                    'businesspremise',
                    'business'];
-var schemas = {};
-/*
- * Check validation of the given document, and call the continuation function if it is valid. 
- * If the given document does not respect the schema, 
- * instead of calling the continuation function it will directly call the callback with the validation error. 
- */
+/*var schemas = {};
+
 /// verify whether a certain object respects the schema or not:
 schemaNames.forEach(function(schemaName) {  
   schemas[schemaName] = require('./' + schemaName);
@@ -28,7 +25,7 @@ function validate(doc, schema, cb) {
   else {
     Joi.validate(doc, schema, function(err, value) {
       if (err) {
-        Boom.wrap(err, 400);
+     Boom.badRequest('invalid query');
         cb(err);
       }
       else {
@@ -52,16 +49,17 @@ exports.validating = function validating(schemaName, fn) {
       }
     });
   };
-};
+};*/
 
 ///Disallowing changes to specific fields( dons't work)
-/*var schemaNames = ['user',
+var schemaNames = ['user',
                    'personReport',
                    'locationReport',
                    'roadReport',
                    'gas',
                    'businesspremise',
-                   'business'];
+                   'business',
+                   'message'];
 var schemas = {};
 
 schemaNames.forEach(function(schemaName) {  
@@ -83,7 +81,7 @@ function validate(doc, schema, op, cb) {
     else {
       Joi.validate(doc, schema, function(err, value) {
         if (err) {
-  Boom.badRequest('invalid query');
+			Boom.badRequest('invalid query');
           cb(err);
         }
         else {
@@ -108,7 +106,7 @@ exports.validating = function validating(schemaName, op, fn) {
       }
     });
   };
-};*/
+};
  
  
  
