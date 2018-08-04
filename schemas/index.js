@@ -51,7 +51,7 @@ exports.validating = function validating(schemaName, fn) {
   };
 };*/
 
-///Disallowing changes to specific fields( dons't work)
+///Disallowing changes to specific fields
 var schemaNames = ['user',
                    'personReport',
                    'locationReport',

@@ -16,7 +16,7 @@ function updateUser(user, cb) {
       cb(err);
     }
     else {
-//Calculate the difference, and validate it:
+//Find the difference, and validate it:
       var userDiff = diff(currentUser, user);
       schemas.validate(userDiff, 'user', 'update', function(err) {
         if (err) {
