@@ -1,12 +1,14 @@
 var Joi = require('joi');  
 var Boom = require('boom');
-var schemaNames = ['charging_station_report',
+var schemaNames = [
                    'doctor_report',
                    'dyalisis_center_report',
-                   'energy_service',
+                   'energy_service_report',
                    'flood_report',
                    'food_place_report',
+                   'food_aid_report',
                    'gas_station_report',
+                   'recharging_station_report',
                    'hospital_report',
                    'landfall_report',
                    'oasis_report',

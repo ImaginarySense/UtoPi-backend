@@ -1,4 +1,4 @@
-// GAS STATION REPORT
+// Recharging STATION REPORT
 // Import data validation tool
 var Joi = require('joi');
 // Define and export Scheme

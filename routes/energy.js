@@ -1,23 +1,54 @@
 var express = require('express');
 var router = express.Router();
-
+// NOTE: we need to validate entry data
 var gas = require('../db/gasStationReport');
+var service = require('../db/energyServiceReport');
 
-///////////////////////// POWER SERVICES REPORTS ///////////////////////
+///////////////////////// ENERGY SERVICES REPORTS //////////////////////
+// GET All energy service
 router.get('/service', function(req, res, next) {
-  res.send('Not implemented...');
+  service.readAll().then((doc) => {
+    console.log(doc);
+    return res.send(doc);
+  }).catch((err) => {
+    return res.send(err);
+  });
 });
+// GET One energy service
 router.get('/service/:id', function(req, res, next) {
-  res.send('Not implemented...');
+ service.readOne(req.params.id).then((doc) => {
+    console.log(doc);
+    return res.send(doc);
+  }).catch((err) => {
+    return res.send(err);
+  });
 });
-router.put('/service/:id', function(req, res, next) {
-  res.send('Not implemented...');
+// PUT energy service
+router.put('/service/', function(req, res, next) {
+  service.create(req.body, function(err, data) {
+    if (err)
+      return res.send(err);
+    else
+      return res.send(data);
+  });
 });
+// PATCH energy service
 router.patch('/service/:id', function(req, res, next) {
-  res.send('Not implemented...');
+   service.update(req.body, function(err, data) {
+    if (err)
+      return res.send(err);
+    else
+      return res.send(data);
+  }, req.params.id);
 });
+// DELETE energy service
 router.delete('/service/:id', function(req, res, next) {
-  res.send('Not implemented...');
+  service.destroy(req.body._rev, function(err, data) {
+    if (err)
+      return res.send(err);
+    else
+      return res.send(data);
+  }, req.params.id);
 });
 
 ///////////////////////// GAS STATIONS REPORTS /////////////////////////
@@ -59,7 +90,7 @@ router.patch('/gas/:id', function(req, res, next) {
 });
 // DELETE gas station
 router.delete('/gas/:id', function(req, res, next) {
-  gas.destroy(req.body.rev, function(err, data) {
+  gas.destroy(req.body._rev, function(err, data) {
     if (err)
       return res.send(err);
     else
@@ -67,20 +98,50 @@ router.delete('/gas/:id', function(req, res, next) {
   }, req.params.id);
 });
 ///////////////////////// RECHARGE STATIONS REPORTS ////////////////////
+// GET All recharge stations
 router.get('/station', function(req, res, next) {
-  res.send('Not implemented...');
+   station.readAll().then((doc) => {
+    console.log(doc);
+    return res.send(doc);
+  }).catch((err) => {
+    return res.send(err);
+  });
 });
+// GET One recharge station
 router.get('/station/:id', function(req, res, next) {
-  res.send('Not implemented...');
+  station.readOne(req.params.id).then((doc) => {
+    console.log(doc);
+    return res.send(doc);
+  }).catch((err) => {
+    return res.send(err);
+  });
 });
+// PUT recharge station
 router.put('/station', function(req, res, next) {
-  res.send('Not implemented...');
+  station.create(req.body, function(err, data) {
+    if (err)
+      return res.send(err);
+    else
+      return res.send(data);
+  });
 });
+// PATCH recharge station
 router.patch('/station/:id', function(req, res, next) {
-  res.send('Not implemented...');
+  station.update(req.body, function(err, data) {
+    if (err)
+      return res.send(err);
+    else
+      return res.send(data);
+  }, req.params.id);
 });
+// DELETE recharge station
 router.delete('/station/:id', function(req, res, next) {
-  res.send('Not implemented...');
+    station.destroy(req.body._rev, function(err, data) {
+    if (err)
+      return res.send(err);
+    else
+      return res.send(data);
+  }, req.params.id);
 });
 
 module.exports = router;
