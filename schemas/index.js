@@ -9,14 +9,14 @@ var schemaNames = [
                    'food_aid_report',
                    'gas_station_report',
                    'recharging_station_report',
-                   'hospital_report',
+                   'hospital_service_report',
                    'landfall_report',
                    'oasis_report',
                    'person_report',
                    'pharmacy_report',
                    'roadblock_report',
                    'shelter_report',
-                   'water_service'
+                   'water_service_report'
                   ];
 var schemas = {};
 /*

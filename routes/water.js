@@ -1,32 +1,98 @@
 var express = require('express');
 var router = express.Router();
-
-// OASIS REPORTS
+// NOTE: we need to validate entry data
+var service = require('../db/waterServiceReport');
+var service = require('../db/oasisReport');
+///////////////////////// OASIS REPORTS ////////////////////////////////
+// GET One oasis services 
 router.get('/oasis', function(req, res, next) {
-  res.send('Not implemented...');
+    oasis.readAll().then((doc) => {
+    console.log(doc);
+    return res.send(doc);
+  }).catch((err) => {
+    return res.send(err);
+  });
 });
+// GET One oasis service 
+router.get('/oasis/:id', function(req, res, next) {
+ oasis.readOne(req.params.id).then((doc) => {
+    console.log(doc);
+    return res.send(doc);
+  }).catch((err) => {
+    return res.send(err);
+  });
+});
+// PUT oasis service 
 router.put('/oasis', function(req, res, next) {
-  res.send('Not implemented...');
+    oasis.create(req.body, function(err, data) {
+    if (err)
+      return res.send(err);
+    else
+      return res.send(data);
+  });
 });
+// PATCH oasis service
 router.patch('/oasis', function(req, res, next) {
-  res.send('Not implemented...');
+  oasis.update(req.body, function(err, data) {
+    if (err)
+      return res.send(err);
+    else
+      return res.send(data);
+  }, req.params.id);
 });
 router.delete('/oasis', function(req, res, next) {
-  res.send('Not implemented...');
+  oasis.destroy(req.body._rev, function(err, data) {
+    if (err)
+      return res.send(err);
+    else
+      return res.send(data);
+  }, req.params.id);
 });
-
-// WATER SERVICE REPORTS
+///////////////////////// WATER SERVICE REPORTS ////////////////////////
+// GET All water service
 router.get('/service', function(req, res, next) {
-  res.send('Not implemented...');
+   service.readAll().then((doc) => {
+    console.log(doc);
+    return res.send(doc);
+  }).catch((err) => {
+    return res.send(err);
+  });
 });
+// GET One water service 
+router.get('/service/:id', function(req, res, next) {
+ service.readOne(req.params.id).then((doc) => {
+    console.log(doc);
+    return res.send(doc);
+  }).catch((err) => {
+    return res.send(err);
+  });
+});
+// PUT water service 
 router.put('/service', function(req, res, next) {
-  res.send('Not implemented...');
+  service.create(req.body, function(err, data) {
+    if (err)
+      return res.send(err);
+    else
+      return res.send(data);
+  });
 });
+// PATCH water service 
 router.patch('/service', function(req, res, next) {
-  res.send('Not implemented...');
+   service.update(req.body, function(err, data) {
+    if (err)
+      return res.send(err);
+    else
+      return res.send(data);
+  }, req.params.id);
 });
+// DELETE water service 
 router.delete('/service', function(req, res, next) {
-  res.send('Not implemented...');
+  service.destroy(req.body._rev, function(err, data) {
+    if (err)
+      return res.send(err);
+    else
+      return res.send(data);
+  }, req.params.id);
 });
 
 module.exports = router;

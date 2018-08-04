@@ -3,7 +3,7 @@ var router = express.Router();
 // NOTE: we need to validate entry data
 var gas = require('../db/gasStationReport');
 var service = require('../db/energyServiceReport');
-
+var station = require('../db/rechargingStationReport');
 ///////////////////////// ENERGY SERVICES REPORTS //////////////////////
 // GET All energy service
 router.get('/service', function(req, res, next) {
