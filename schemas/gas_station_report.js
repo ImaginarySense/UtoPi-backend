@@ -13,6 +13,6 @@ module.exports = Joi.object().keys({
   openingDate: Joi.date(),
   closingDate: Joi.date(),
   status: Joi.string().valid(['Out of service', 'Active']),
-  name: Joi.string().required().max(50, 'utf8'),
+  name: Joi.string().required().max(50, 'utf8').min(2, 'utf8'),
   description: Joi.string().max(140, 'utf8')
 });

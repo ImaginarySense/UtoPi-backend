@@ -3,7 +3,7 @@ var router = express.Router();
 
 var gas = require('../db/gasStationReport');
 
-// POWER SERVICES REPORTS
+///////////////////////// POWER SERVICES REPORTS ///////////////////////
 router.get('/service', function(req, res, next) {
   res.send('Not implemented...');
 });
@@ -20,7 +20,7 @@ router.delete('/service/:id', function(req, res, next) {
   res.send('Not implemented...');
 });
 
-// GAS STATIONS REPORTS
+///////////////////////// GAS STATIONS REPORTS /////////////////////////
 // GET All gas stations
 router.get('/gas', function(req, res, next) {
   gas.readAll().then((doc) => {
@@ -66,8 +66,7 @@ router.delete('/gas/:id', function(req, res, next) {
       return res.send(data);
   }, req.params.id);
 });
-
-// RECHARGE STATIONS REPORTS
+///////////////////////// RECHARGE STATIONS REPORTS ////////////////////
 router.get('/station', function(req, res, next) {
   res.send('Not implemented...');
 });
