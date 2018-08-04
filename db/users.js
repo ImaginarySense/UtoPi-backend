@@ -1,7 +1,8 @@
 var schemas = require('../schemas');  
 var errors = require('../errors');
 var users = require('../couchdb').use('utopi');
-// Create user document in the database
+
+// Create document
 exports.create = schemas.validating('user', 'create', createUser);
 function createUser(user, cb) {  
   users.insert(user, errors.wrapNano(cb));
@@ -9,14 +10,14 @@ function createUser(user, cb) {
 var diff = require('object-versions').diff;
 // Update user
 exports.update = updateUser;
-function updateUser(user, cb) {  
+function updateUser(user, cb) {
 // Get the current version of the user document before sending it to CouchDB 
   users.get(user._id, errors.wrapNano(function(err, currentUser) {
     if (err) {
       cb(err);
     }
     else {
-//Find the difference, and validate it:
+      // Find difference between user instances, and validate it:
       var userDiff = diff(currentUser, user);
       schemas.validate(userDiff, 'user', 'update', function(err) {
         if (err) {

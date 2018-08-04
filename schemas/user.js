@@ -19,6 +19,7 @@ var updateAttributes = {
 
 // disallow changes to some specific fields
 exports.update = Joi.object().keys(updateAttributes);
+
 var createAttributes = extend({  
   email: Joi.string().email()
 }, updateAttributes);

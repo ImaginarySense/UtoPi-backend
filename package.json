@@ -1,26 +1,22 @@
 {
-  "name": "utopi_backend",
-  "version": "0.0.1",
+  "name": "utopi-backend",
+  "version": "0.1.0",
   "description": "UtoPi CouchDb Interface",
-  "main": "app.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "keywords": [
-    "utopi",
-    "emergency",
-    "response",
-    "couchdb"
-  ],
   "author": "Imaginary Sense",
-  "license": "EULA",
   "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "morgan": "~1.9.0",
     "async": "^2.6.1",
     "boom": "^7.2.0",
-    "deep-equal": "^1.0.1",
     "joi": "^13.4.0",
     "nano": "^7.0.0",
-    "object-versions": "^1.0.0",
-    "request": "^2.87.0"
+    "deep-equal": "^1.0.1",
+    "object-versions": "^1.0.0"
   }
 }
