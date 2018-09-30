@@ -2,69 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a24d2e1-05d2-4297-99bd-e8b06112cabe" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/deprecated/businesses.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/deprecated/businesses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/deprecated/businessespremises.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/deprecated/businessespremises.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/deprecated/gasolines.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/deprecated/gasolines.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/deprecated/locationReports.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/deprecated/locationReports.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/deprecated/personReports.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/deprecated/personReports.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/deprecated/roadReports.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/deprecated/roadReports.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/doctorReport.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/doctorReport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/dyalisisCenterReport.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/dyalisisCenterReport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/energyServiceReport.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/energyServiceReport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/floodReport.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/floodReport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/foodAidReport.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/foodAidReport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/foodPlaceReport.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/foodPlaceReport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/gasStationReport.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/gasStationReport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/hospitalServiceReport.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/hospitalServiceReport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/landFallReport.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/landFallReport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/oasisReport.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/oasisReport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/pharmacyReport.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/pharmacyReport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/rechargingStationReport.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/rechargingStationReport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/roadBlockReport.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/roadBlockReport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/shelterReport.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/shelterReport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/untitled" beforeDir="false" afterPath="$PROJECT_DIR$/db/untitled" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/waterServiceReport.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/waterServiceReport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/energy.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/energy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/food.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/food.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/health.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/health.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/mail.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/mail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/money.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/money.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/people.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/people.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/pets.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/pets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/roads.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/roads.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/shelter.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/shelter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/transportation.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/transportation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/waste.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/waste.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/water.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/water.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/doctor_report.js" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/doctor_report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/dyalisis_center_report.js" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/dyalisis_center_report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/energy_service_report.js" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/energy_service_report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/experiments/gas.js" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/experiments/gas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/experiments/multipleWhen.js" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/experiments/multipleWhen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/experiments/timestamps.js" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/experiments/timestamps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/flood_report.js" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/flood_report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/food_aid_report.js" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/food_aid_report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/food_place_report.js" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/food_place_report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/gas_station_report.js" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/gas_station_report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/hospital_service_report.js" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/hospital_service_report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/landfall_report.js" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/landfall_report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/oasis_report.js" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/oasis_report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/person_report.js" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/person_report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/pharmacy_report.js" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/pharmacy_report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/recharging_station_report.js" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/recharging_station_report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/roadblock_report.js" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/roadblock_report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/shelter_report.js" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/shelter_report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/water_service_report.js" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/water_service_report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup/couchdb.js" beforeDir="false" afterPath="$PROJECT_DIR$/setup/couchdb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/errors.js" beforeDir="false" afterPath="$PROJECT_DIR$/setup/errors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/init_couch.js" beforeDir="false" afterPath="$PROJECT_DIR$/setup/init_couch.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -77,15 +17,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="422">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="couchdb.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/setup/couchdb.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -141,7 +87,6 @@
         <option value="$PROJECT_DIR$/schemas/shelter_report.js" />
         <option value="$PROJECT_DIR$/schemas/user.js" />
         <option value="$PROJECT_DIR$/schemas/water_service_report.js" />
-        <option value="$PROJECT_DIR$/setup/couchdb.js" />
         <option value="$PROJECT_DIR$/setup/errors.js" />
         <option value="$PROJECT_DIR$/setup/init_couch.js" />
         <option value="$PROJECT_DIR$/bin/www" />
@@ -149,6 +94,7 @@
         <option value="$PROJECT_DIR$/schemas/experiments/multipleWhen.js" />
         <option value="$PROJECT_DIR$/schemas/experiments/timestamps.js" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/setup/couchdb.js" />
       </list>
     </option>
   </component>
@@ -174,6 +120,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,13 +131,12 @@
             <path>
               <item name="Backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="setup" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,12 +181,18 @@
       <option name="presentableId" value="Default" />
       <updated>1537795128231</updated>
       <workItem from="1537795130357" duration="4975000" />
-      <workItem from="1537824471220" duration="1489000" />
+      <workItem from="1537824471220" duration="1795000" />
+      <workItem from="1537831581457" duration="22000" />
+      <workItem from="1537900299564" duration="170000" />
+      <workItem from="1537900504824" duration="1068000" />
+      <workItem from="1538066776182" duration="143000" />
+      <workItem from="1538142275701" duration="608000" />
+      <workItem from="1538174283295" duration="1414000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6464000" />
+    <option name="totallyTimeSpent" value="10195000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -255,12 +207,12 @@
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25757575" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12348485" />
       <window_info anchor="right" id="TODO" order="4" side_tool="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Version Control" order="3" side_tool="true" weight="0.32954547" />
-      <window_info anchor="right" id="Run" order="5" weight="0.3287879" />
+      <window_info anchor="right" id="Run" order="5" weight="0.2719697" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Terminal" order="6" weight="0.3287879" />
@@ -282,13 +234,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db/landFallReport.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -296,9 +259,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -306,9 +266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -316,9 +273,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -326,9 +280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -336,9 +287,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -353,9 +301,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -363,22 +308,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/energy.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -386,9 +322,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -396,9 +329,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -406,9 +336,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -416,9 +343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -426,9 +350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -436,9 +357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -446,9 +364,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -456,9 +371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -466,9 +378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -476,9 +385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -486,9 +392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -496,9 +399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -506,9 +406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -516,9 +413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -526,9 +420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -536,9 +427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -546,9 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -556,9 +441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -566,9 +448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -576,9 +455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -586,9 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -596,9 +469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -606,9 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -616,9 +483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,9 +490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -636,9 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -646,9 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -656,9 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -666,9 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -676,9 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -686,9 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -696,9 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -706,32 +546,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/www">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/db/deprecated/businesses.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup/couchdb.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -739,9 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -749,9 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -759,19 +574,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="422">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup/couchdb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
         </state>
       </provider>
     </entry>
